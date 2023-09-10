@@ -1,0 +1,15 @@
+.country {
+  border: 2px solid skyblue;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 15px;
+}
+.img-h-w {
+  height: 220px;
+  width: 90%;
+}
+.button-visited {
+  background-color: rgb(68, 68, 172);
+  color: white;
+  font-weight: 700;
+}
