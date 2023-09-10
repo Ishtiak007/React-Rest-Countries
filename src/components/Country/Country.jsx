@@ -6,7 +6,7 @@ const Country = ({ country }) => {
   const [visited, setVisited] = useState(false);
 
   const visitedBtn = () => {
-    setVisited(true);
+    setVisited(!visited);
   };
 
   return (
@@ -19,9 +19,8 @@ const Country = ({ country }) => {
         <small>Code : {cca3}</small>
       </p>
       <button onClick={visitedBtn} className="button-visited">
-        Visited
+        {visited ? "Visited" : "Never visited"}
       </button>
-      {visited ? "I have visited this country before" : "I want to visit there"}
     </div>
   );
 };
