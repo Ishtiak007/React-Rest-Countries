@@ -36,7 +36,7 @@ const Countries = () => {
             }
          </div>
         <h3 className='text-center text-2xl my-4 bg-blue-900 text-white font-medium p-5 rounded-md'>Countries : {countries.length}</h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-10 ">
             {
                 countries.map((country)=><Country handleVisitedCountry={handleVisitedCountry} handleVisitedFlag={handleVisitedFlag} key={country.cca3} country={country}></Country>)
             }

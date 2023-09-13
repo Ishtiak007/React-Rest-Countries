@@ -1,3 +1,2 @@
 # React + Vite
-
-https://6501793640687c57fb9bea2e--gleeful-elf-1fbb49.netlify.app/
+https://65017b2988d3195965dc171a--dainty-cajeta-c1249f.netlify.app/

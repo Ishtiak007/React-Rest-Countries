@@ -17,12 +17,12 @@ const Country = ({country,handleVisitedCountry,handleVisitedFlag}) => {
             <p className='text-[19px]'>Area: {area}</p>        
             </div>
            <h3 className='text-center my-6 text-lg text-slate-700 font-medium'>Capital City: {capital}</h3>
-           <button onClick={()=>handleVisitedCountry(country)} className='bg-blue-800 text-white font-bold px-[4px] py-1 rounded-md m-3'>Mark As Visited</button>
-           <button onClick={handleVisited} className='bg-red-700 text-white font-bold px-[4px] py-1 rounded-md m-3'>{visited ? "Visited":"Want To Go"}</button>
+           <button onClick={()=>handleVisitedCountry(country)} className='bg-blue-800 text-white font-bold px-2 py-1 rounded-md m-3'>Mark As Visited</button>
+           <button onClick={handleVisited} className='bg-blue-800 text-white font-bold px-2 py-1 rounded-md m-3'>{visited ? "Visited":"Want To Go"}</button>
            {/* {
             visited ? "I have visited this country": "I want to visit"
            } */}
-           <button onClick={()=>handleVisitedFlag(country.flags.png)} className='bg-sky-700 text-white font-bold px-[4px] py-1 rounded-md m-3'>Visited Flag</button>
+           <button onClick={()=>handleVisitedFlag(country.flags.png)} className='bg-blue-800 text-white font-bold px-2 py-1 rounded-md m-3'>Visited Flag</button>
         </div>
     );
 };
